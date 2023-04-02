@@ -1,7 +1,7 @@
 package med.voll.api.controller;
 
 import jakarta.validation.Valid;
-import med.voll.api.domain.jpa.Usuario;
+import med.voll.api.domain.usuario.Usuario;
 import med.voll.api.domain.usuario.DadosAutenticao;
 import med.voll.api.infra.security.DadosTokenJwt;
 import med.voll.api.infra.security.TokenService;

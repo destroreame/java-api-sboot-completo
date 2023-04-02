@@ -1,8 +1,8 @@
-package med.voll.api.domain.jpa;
+package med.voll.api.domain.endereco;
 
 import jakarta.persistence.Embeddable;
 import lombok.*;
-import med.voll.api.domain.DadosEndereco;
+import med.voll.api.domain.endereco.DadosEndereco;
 
 @Getter
 @Setter

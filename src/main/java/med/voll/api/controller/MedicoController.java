@@ -13,8 +13,8 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
 import med.voll.api.domain.medico.DadosCadastroMedico;
-import med.voll.api.domain.jpa.Medico;
-import med.voll.api.domain.repository.MedicoRepository;
+import med.voll.api.domain.medico.Medico;
+import med.voll.api.domain.medico.MedicoRepository;
 import org.springframework.web.util.UriComponentsBuilder;
 
 @RestController
