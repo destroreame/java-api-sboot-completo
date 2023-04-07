@@ -1,5 +1,6 @@
 package med.voll.api.controller;
 
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import jakarta.validation.Valid;
 import med.voll.api.domain.paciente.DadosAtualizacaoPaciente;
 import med.voll.api.domain.paciente.DadosCadastroPaciente;
@@ -17,6 +18,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponentsBuilder;
 
 @RestController
+@SecurityRequirement(name = "bearer-key")
 @RequestMapping("pacientes")
 public class PacienteController {
 
@@ -62,8 +64,4 @@ public class PacienteController {
         paciente.excluir();
         return ResponseEntity.noContent().build();
     }
-
-
-
-
 }
