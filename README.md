@@ -8,3 +8,7 @@ Exemplo de uma API usando Java 17 e Sping boot 3.0
  - Tratativa de erros
  - Filters
  - Spring Security - Autenticação e autorização utilizando Token JWT
+ - Regras de negócio e solid
+ - Swagger
+ - Testes (pendente)
+ - Environments 
